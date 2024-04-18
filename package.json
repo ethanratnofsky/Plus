@@ -1,0 +1,16 @@
+{
+  "name": "plus",
+  "version": "2024.4.18",
+  "description": "A Chromium browser extension that injects various features into a user's browser.",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Ethan Ratnofsky",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack-cli": "^5.1.4"
+  }
+}
