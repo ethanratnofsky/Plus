@@ -1,6 +1,6 @@
 {
   "name": "plus",
-  "version": "2024.4.18",
+  "version": "2024.4.19",
   "description": "A Chromium browser extension that injects various features into a user's browser.",
   "scripts": {
     "build": "webpack --config webpack.config.js"

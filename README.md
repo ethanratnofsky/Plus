@@ -3,11 +3,14 @@ A Chromium browser extension that adds various functionality to the user's brows
 The goal of this project is to implement a variety of simple, lightweight features or extended functionality to other Chromium browser extensions.
 
 ## Features
-- [x] **Dynamic Orientation Adapter for Teleparty**: Automatically adjusts the orientation of video players and the Teleparty chat box based on the user's browser window size.
-    - [x] Hulu
+- [x] **Dynamic Orientation Adapter (DOA) for Teleparty**: Automatically adjusts the orientation of video players and the Teleparty chat box based on the user's browser window size.
     - [ ] Netflix
     - [ ] YouTube
-- [x] **Dark Mode**: Adds a darker color scheme to the following websites which do not natively support dark mode:
+    - [ ] Disney+
+    - [ ] HBO
+    - [x] Hulu
+    - [ ] Amazon Prime Video
+- [x] **Dynamic Illumination Mode (DIM)**: Adds a darker color scheme to the following websites which do not natively support dark mode:
     - [x] Pinterest
     - [ ] Dribbble
     - [ ] Google Calendar

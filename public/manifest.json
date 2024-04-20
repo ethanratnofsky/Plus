@@ -1,12 +1,12 @@
 {
     "manifest_version": 3,
     "name": "Plus",
-    "version": "2024.4.18",
+    "version": "2024.4.19",
     "description": "Add to your browsing experience.",
     "content_scripts": [
         {
             "matches": [
-                "https://www.hulu.com/watch/*"
+                "https://www.hulu.com/*"
             ],
             "js": [
                 "index.js"
