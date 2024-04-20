@@ -11,6 +11,14 @@
             "js": [
                 "index.js"
             ]
+        },
+        {
+            "matches": [
+                "https://www.pinterest.com/*"
+            ],
+            "js": [
+                "darkModePinterest.js"
+            ]
         }
     ]
 }

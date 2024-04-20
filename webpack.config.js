@@ -4,6 +4,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: {
     index: './src/index.ts',
+    darkModePinterest: './src/darkModePinterest.ts',
   },
   devtool: 'inline-source-map',
   mode: "production",
