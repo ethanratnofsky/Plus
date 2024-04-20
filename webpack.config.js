@@ -3,8 +3,8 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.ts',
-    darkModePinterest: './src/darkModePinterest.ts',
+    'doa/hulu/index': './src/dynamicOrientationAdapter/hulu/index.ts',
+    'dim/pinterest/index': './src/dynamicIlluminationMode/pinterest/index.ts',
   },
   devtool: 'inline-source-map',
   mode: "production",

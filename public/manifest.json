@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Plus",
-    "version": "2024.4.19",
+    "version": "2024.4.20",
     "description": "Add to your browsing experience.",
     "content_scripts": [
         {
@@ -9,7 +9,7 @@
                 "https://www.hulu.com/*"
             ],
             "js": [
-                "index.js"
+                "doa/hulu/index.js"
             ]
         },
         {
@@ -17,7 +17,7 @@
                 "https://www.pinterest.com/*"
             ],
             "js": [
-                "darkModePinterest.js"
+                "dim/pinterest/index.js"
             ]
         }
     ]

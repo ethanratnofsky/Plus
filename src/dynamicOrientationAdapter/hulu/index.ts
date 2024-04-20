@@ -1,22 +1,15 @@
-import { 
-    // TELEPARTY_CHAT_WRAPPER_SELECTOR,
-    // TELEPARTY_PLAYER_CONTAINER_ADAPTER_CLASS,
-    // HULU_PLAYER_CONTAINER_SELECTOR,
-    // PLUS_DYNAMIC_ORIENTATION_ADAPTER_CLASS,
-    PLUS_DYNAMIC_ORIENTATION_ADAPTER_STYLES,
-} from './constants';
-// import { asyncQuerySelector } from './utils';
+import { DOA_HULU_STYLES } from './styles';
 
-console.log('[Plus] Dynamic orientation adapter injected on Hulu.');
+console.log('[Plus] DOA Hulu injected.');
 
-// Inject root styles
+// Inject the styles into the head of the document
 const styleElement = document.createElement('style');
 
-styleElement.textContent = PLUS_DYNAMIC_ORIENTATION_ADAPTER_STYLES;
+styleElement.id = 'plus-doa-hulu';
+
+styleElement.textContent = DOA_HULU_STYLES;
 
 document.head.appendChild(styleElement);
-
-// TODO: A simple media query style injection is sufficient for now...
 
 // TODO: This function may become useful for more closely controlling styles in the future
 // const main = async (): Promise<void> => {

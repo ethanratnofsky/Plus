@@ -10,7 +10,7 @@ The goal of this project is to implement a variety of simple, lightweight featur
     - [ ] HBO
     - [x] Hulu
     - [ ] Amazon Prime Video
-- [x] **Dynamic Illumination Mode (DIM)**: Adds a darker color scheme to the following websites which do not natively support dark mode:
+- [x] **Dynamic Illumination Mode (DIM)**: Adds a darker color scheme to the following websites which do not natively support "dark mode":
     - [x] Pinterest
     - [ ] Dribbble
     - [ ] Google Calendar
@@ -27,4 +27,5 @@ The goal of this project is to implement a variety of simple, lightweight featur
 7. Load the extension by clicking "Load unpacked" and selecting the extension's `dist` directory.
 
 ## Roadmap
+- [x] Add a feature to automatically toggle darker color schemes based on users' desktop preferences.
 - [ ] Add a configuration UI to allow users to enable/disable features.
