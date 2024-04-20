@@ -21,9 +21,15 @@ export const DIM_PINTEREST_STYLES: string = `
             --color-background-tabs-default-active: ${COLORS.dark.button.focus};
             --color-background-popover-primary: ${COLORS.dark.background.lighter};
             --color-border-popover-primary: ${COLORS.dark.background.lighter};
+            --color-background-box-dark: ${COLORS.dark.background.lighter};
             --color-background-box-light: ${COLORS.dark.background.primary};
             --color-background-formfield-primary: ${COLORS.dark.background.primary};
             --color-text-formfield-default: ${COLORS.dark.text.primary};
+            --color-background-overlay: ${COLORS.dark.background.primary};
+        }
+
+        input {
+            color: ${COLORS.dark.text.primary} !important;
         }
 
         #searchBoxContainer > div {
