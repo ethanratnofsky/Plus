@@ -4,8 +4,13 @@ The goal of this project is to implement a variety of simple, lightweight featur
 
 ## Features
 - [x] **Dynamic Orientation Adapter for Teleparty**: Automatically adjusts the orientation of video players and the Teleparty chat box based on the user's browser window size.
-- [ ] **Dark Mode**: Adds a darker color scheme to the following websites which do not natively support dark mode:
-    - [ ] Pinterest
+    - [x] Hulu
+    - [ ] Netflix
+    - [ ] YouTube
+- [x] **Dark Mode**: Adds a darker color scheme to the following websites which do not natively support dark mode:
+    - [x] Pinterest
+    - [ ] Dribbble
+    - [ ] Google Calendar
     - [ ] Medium
     - ...
 
